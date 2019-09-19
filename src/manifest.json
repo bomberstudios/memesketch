@@ -1,0 +1,19 @@
+{
+  "name": "MemeSketch",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "suppliesData" : true,
+  "commands": [
+    {
+      "script" : "memesketch.js",
+      "handlers" : {
+        "actions" : {
+          "Startup" : "onStartup",
+          "Shutdown" : "onShutdown",
+          "SupplyRandomPhoto" : "onSupplyRandomPhoto"
+        }
+      }
+    }
+  ]
+}
