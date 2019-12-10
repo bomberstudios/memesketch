@@ -2,6 +2,7 @@
   "name": "memesketch",
   "version": "1.0.1",
   "description": "A Meme Generator plugin for Sketch",
+  "license": "MIT",
   "engines": {
     "sketch": ">=3.0"
   },
@@ -19,7 +20,8 @@
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.7.4"
+    "@skpm/builder": "^0.7.4",
+    "serialize-javascript": ">=2.1.1"
   },
   "author": "Ale Muñoz <ale@sketch.com>",
   "repository": "https://github.com/bomberstudios/memesketch.git",
